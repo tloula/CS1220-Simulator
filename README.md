@@ -1,4 +1,4 @@
-# HW6
+# Digital Logic Simulator
 
 Digital Logic Simulator<br />
 Final Term Project<br />

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F35DA4E7-C831-4C7F-9CA8-F7BB6534F073}</ProjectGuid>
+    <RootNamespace>HW6</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Circuit.cpp" />
+    <ClCompile Include="Deleted Code.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Gate.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Wire.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circuit.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Gate.h" />
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="Wire.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="circuitFiles\circuit0.txt" />
+    <Text Include="circuitFiles\circuit0_v.txt" />
+    <Text Include="circuitFiles\circuit1.txt" />
+    <Text Include="circuitFiles\circuit1_v.txt" />
+    <Text Include="circuitFiles\circuit2.txt" />
+    <Text Include="circuitFiles\circuit2_v.txt" />
+    <Text Include="circuitFiles\circuit3.txt" />
+    <Text Include="circuitFiles\circuit3_v.txt" />
+    <Text Include="circuitFiles\circuit4.txt" />
+    <Text Include="circuitFiles\circuit4_v.txt" />
+    <Text Include="circuitFiles\circuit5.txt" />
+    <Text Include="circuitFiles\circuit5_v.txt" />
+    <Text Include="circuitFiles\circuit6.txt" />
+    <Text Include="circuitFiles\circuit6_v.txt" />
+    <Text Include="circuitFiles\circuit7.txt" />
+    <Text Include="circuitFiles\circuit7_v.txt" />
+    <Text Include="circuitFiles\circuit8.txt" />
+    <Text Include="circuitFiles\circuit8_v.txt" />
+    <Text Include="circuitFiles\ff.txt" />
+    <Text Include="circuitFiles\ff_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit0.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit0_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit1.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit1_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit2.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit2_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit3.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit3_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit4.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit4_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit5.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit5_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit6.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit6_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit7.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit7_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit8.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit8_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop1.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop1_v.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop2.txt" />
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop2_v.txt" />
+    <Text Include="Invalid.txt" />
+    <Text Include="Invalid_v.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

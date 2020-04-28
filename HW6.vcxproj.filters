@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Circuit FIles">
+      <UniqueIdentifier>{7fedfc23-c3ae-4e77-84a1-cf2dc2acaf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Circuit FIles\GUICircuitFiles">
+      <UniqueIdentifier>{dfa65d54-2871-4804-b260-30d1a0bc4f23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circuit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deleted Code.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="circuitFiles\circuit0.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit0_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit1.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit1_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit2.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit2_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit3.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit3_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit4.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit4_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit5.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit5_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit7.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit7_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit8.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit8_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\ff.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\ff_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit6.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="circuitFiles\circuit6_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit0.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit0_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit1.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit1_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit2.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit2_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit3.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit3_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit4.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit4_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit5.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit5_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit6.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit6_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit7.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit7_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit8.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\circuit8_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop1.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop1_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop2.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="CircuitFiles\GUICircuitFiles\flipflop2_v.txt">
+      <Filter>Circuit FIles\GUICircuitFiles</Filter>
+    </Text>
+    <Text Include="Invalid.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+    <Text Include="Invalid_v.txt">
+      <Filter>Circuit FIles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

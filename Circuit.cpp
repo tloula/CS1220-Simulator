@@ -170,7 +170,9 @@ void Circuit::parseVector(std::string line)
 {
 	try {
 		Event e;
-		Wire* w;
+		Wire* w = wires.at(0);
+
+		// Added = wires.at(0) on APR-26-2020 to fix "potentially uninitialized local pointer variable 'w' used" error
 
 		const char *row = line.c_str();
 

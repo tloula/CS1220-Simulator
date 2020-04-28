@@ -1,0 +1,5 @@
+CIRCUT	BROKENCIRCUIT OTHER CRAP
+INPT	sf	sdf	kj
+OTP		k	lk	l
+
+AND	2sn	4	k	4k
